@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+nav a:hover {
+  background-color: red;
+}
+
+
+main {
+  max-width: 1000px;
+  margin: 0;
+  padding: 0 15px;
+  text-align: left;
+}
+
+#tendances,
+#filmsde2024,
+#resultatdelaRecherche {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+.detailsduFilm {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+}
+
+.detailsduFilm img {
+  width: 100%;
+}
+
+.detailsduFilm a {
+background-color: lightblue;
+color: white;
+text-decoration: none;
+padding: 10px;
+}
+
+#champrecherche {
+  width: 100%;
+  padding: 10px;
+}
+
+#buttonPlusDeResultats,
+#button2024 {
+  background-color: red;
+  color: black;
+  padding: 10px 10px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+#buttonPlusDeResultats:hover,
+#button2024:hover {
+  background-color: darkred;
+}
+
+#detailsduFilm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  padding: 20px;
+}
+
+#detailsduFilm img {
+  width: auto;
+}
+
